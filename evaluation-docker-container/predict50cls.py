@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
     models = []
 
-    snap_to_load = 'res50_cls_cce_{}_tuned2_best'.format(seed)
+    snap_to_load = 'res50_cls_cce_{}_tuned_best'.format(seed)
 
     model = SeResNext50_Unet_Double(pretrained=None)
 
